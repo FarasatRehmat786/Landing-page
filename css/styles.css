@@ -1,0 +1,297 @@
+
+/*navbar stylin*/
+
+.drpdwn {
+	background-color: rgba(220,53,69,0.6);
+
+}
+.navbar li{
+	border-bottom: 4px solid transparent;
+	transition-duration: 1s;
+}
+.navbar li:hover{
+	border-bottom: 4px solid #861621;
+	transition-duration: 1s;
+}
+.drpdwn li:hover a{
+	background-color: rgba(220,53,69,1);
+
+}
+
+.input1{
+	position: absolute;
+	width: 15rem;
+	z-index: 1;
+	right: 6%;
+	top: 7%;
+	outline: none !important;
+	box-shadow: none !important;
+	background-color: #A60009;
+	border-color: #A60009;
+	visibility: hidden;
+}
+.input1::placeholder{
+	color: white;
+}
+.input1:active{
+	background-color: #A60009;
+	outline: none;
+	border: none;
+}
+.input1:focus{
+	background-color: #A60009;
+	outline: none;
+	border: none;
+}
+
+.search:focus .input1{
+	visibility: visible;
+}
+.input1:hover{
+	visibility: visible;
+}
+
+/* navbar styling ends here*/
+
+/*1st section intro stylng*/
+
+#bg {
+	height: 47rem;
+	background-image: url(../img/backgrounds/01.png);
+}
+#bg .alpha{
+	background-color: rgba(0,0,0,0.5);
+}
+#bg .slide{
+	margin-top: 15%;
+	margin-bottom: 5%;
+}
+#bg .butt:hover{
+	background-color: transparent !important;
+	border-color: white;
+}
+#bg .but:hover{
+	border-color: #dc3545 !important;
+}
+/*1st section intro stylng ends here*/
+
+/*styling of after boxes boxes*/
+
+#boxs{
+	height: 20rem;
+	background-color: grey;
+	padding: 1px;
+}
+
+.icn{
+	width: 3rem;
+	border-radius: 50%;
+}
+.box1{
+	box-shadow: 0px 0px 5px grey;
+	transition-duration: 0.5s;
+}
+.box1:hover{
+	background-color: black !important;
+	transition-duration: 0.5s;
+}
+.box1 h4{
+	transition-duration: 0.5s;
+}
+.box1 p{
+	transition-duration: 0.5s;
+}
+.box1:hover .icn{
+	background-color: #dc3545 !important;
+	transition-duration: 0.5s;
+}
+.box1:hover .icn span{
+	color: white !important;
+	transition-duration: 0.5s;
+}
+.box1:hover h4{
+	color: white !important;
+	transition-duration: 0.5s;
+}
+.box1:hover p{
+	color: white !important;
+	transition-duration: 0.5s;
+}
+.box1 hr{
+	border: 2px solid #ff0c0c;
+
+}
+
+
+.box2{
+	box-shadow: 0px 0px 5px grey;
+	background-color: black;
+	transition-duration: 0.5s;
+}
+.box2:hover{
+	background-color: white !important;
+	transition-duration: 0.5s;
+}
+.box2 h4{
+	transition-duration: 0.5s;
+}
+.box2 p{
+	transition-duration: 0.5s;
+}
+.box2:hover .icn{
+	background-color: white !important;
+	transition-duration: 0.5s;
+}
+.box2:hover .icn span{
+	color: #dc3545 !important;
+	transition-duration: 0.5s;
+}
+.box2:hover h4{
+	color: #dc3545 !important;
+	transition-duration: 0.5s;
+}
+.box2:hover p{
+	color: #dc3545 !important;
+	transition-duration: 0.5s;
+}
+.box2 hr{
+	border: 2px solid #ff0c0c;
+
+}
+
+.hr{
+	width: 10rem;
+	border: 2px solid #ff0c0c;
+}
+.icn1 div span{
+	transition-duration: 1s;
+}
+
+.icn1:hover div span{
+	color: red !important;
+	transition-duration: 1s;
+}
+
+.bttn button:hover{
+	background-color: transparent !important;
+	color: red !important;
+}
+
+
+#imgbx{
+	background-color: lightgrey;
+}
+
+.bx1{
+	height: 15rem;
+	background-image: url(../img/gallery/01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bx1 .m-alpha{
+	transition-duration: 0.5s;
+}
+.bx1 .m-alpha span{
+	margin-top: 35%;
+	margin-bottom: 35%;
+	visibility: hidden;
+	transition-delay: 0.2s;
+}
+.bx1:hover .m-alpha{
+	background-color: rgba(0,0,0,0.7);
+	transition-duration: 0.5s;
+}
+.bx1:hover .m-alpha span{
+	visibility: visible;
+	transition-delay: 0.2s;
+}
+
+#integer{
+	background-image: url(../img/backgrounds/01.png);
+}
+
+#integer .alpha{
+	background-color: rgba(0,0,0,0.6);
+}
+
+.quote{
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+.quote:hover{
+	background-color: red !important;
+	color: white !important;
+	transition-duration: 0.5s;
+}
+.quote:hover + .quote1{
+	background-color: red !important;
+	transition-duration: 0.5s;
+}
+.quote span{
+	position: absolute;
+	display: block;
+	color: #dbd8d8;
+}
+.quote p{
+	position: relative;
+}
+
+.quote1{
+	position: relative;
+	transform: rotate(45deg);
+	top: -1rem;
+	left: 3rem;
+	height: 30px;
+	width: 30px;
+	transition-duration: 0.5s;
+}
+
+.img1 img{
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+
+}
+
+.bttn1 button:hover{
+	background-color: transparent !important;
+}
+
+
+.bx2{
+	height: 25rem;
+	background-image: url(../img/gallery/01.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.bx2 .m-alpha{
+	transition-duration: 0.5s;
+}
+.bx2 .m-alpha span{
+	margin-top: 45%;
+	margin-bottom: 45%;
+	visibility: hidden;
+	transition-delay: 0.2s;
+}
+.bx2:hover .m-alpha{
+	background-color: rgba(0,0,0,0.7);
+	transition-duration: 0.5s;
+}
+.bx2:hover .m-alpha span{
+	visibility: visible;
+	transition-delay: 0.2s;
+}
+
+
+@media (max-width: 700px) {
+  #boxs{
+  	height: 55rem;
+  }
+ }
+
+
+
